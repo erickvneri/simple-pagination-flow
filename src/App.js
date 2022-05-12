@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Pagination from "./components/Pagination";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <Pagination/>
       </header>
     </div>
   );
